@@ -9,22 +9,11 @@ import BlogPostFooter from '../components/BlogPostFooter';
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
 export const query = graphql`
- {
-            products(first:5, after:""){
-              pageInfo {
-                hasNextPage
-                endCursor
-              }
-				      nodes{
-				        name
-				        id
-				        ... on SimpleProduct{
-					          uri
-					          price
-				        }
-				      }
-			      }
-          }
+  query($url: String) {
+    sitePage(path: {eq: $url}) {
+      id
+    }
+  }
 `;
 
 export default class Post extends React.Component {
