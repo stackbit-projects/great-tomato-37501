@@ -3,10 +3,10 @@ import _ from 'lodash';
 
 export default function getPosts(){
     fetch("https://wpintegrate.net/graphql", {
-method: "POST",
-headers: {
-"content-type": "application/json",
-},
+    method: "POST",
+    headers: {
+    "content-type": "application/json",
+    },
     body: JSON.stringify({
         query: `{
             products(first:5, after:""){
