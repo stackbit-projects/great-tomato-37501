@@ -24,7 +24,7 @@ export default {
             login(input: {
             clientMutationId: "233",
             username: "chunt@dwsnow.com",
-            password: "${password}"
+            password: "C8JUBYqXtT5oQQ(&!fYbx3"
             }) {
             authToken
             clientMutationId
