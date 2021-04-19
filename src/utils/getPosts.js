@@ -12,7 +12,7 @@ export default {
             nicename: null,
         };
     },
-methods: {
+    methods: {
 UserLogin() {
 fetch("https://wpintegrate.net/graphql", {
 method: "POST",
