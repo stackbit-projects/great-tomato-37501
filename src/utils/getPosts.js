@@ -5,12 +5,12 @@ export default {
     name: "UserLogin",
     data() {
         return {
-        message: null,
-        uname: null,
-        password: null,
-        authToken: null,
-        nicename: null,
-        };
+            message: null,
+            uname: null,
+            password: null,
+            authToken: null,
+            nicename: null,
+            };
     },
 methods: {
 UserLogin() {
