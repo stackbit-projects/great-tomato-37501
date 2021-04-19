@@ -11,7 +11,7 @@ export default {
         authToken: null,
         nicename: null,
         };
-},
+    },
 methods: {
 UserLogin() {
 fetch("https://wpintegrate.net/graphql", {
