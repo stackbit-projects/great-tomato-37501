@@ -48,7 +48,7 @@ export default {
             }
         });
     },
-GetData() {
+    GetData() {
 fetch("https://wpintegrate.net/graphql", {
 method: "POST",
 headers: {
