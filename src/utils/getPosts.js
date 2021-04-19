@@ -16,7 +16,7 @@ query: `mutation LoginUser {
 login(input: {
 clientMutationId: "233",
 username: "",
-password: ""
+password: "C8JUBYqXtT5oQQ(&!fYbx3"
 }) {
 authToken
 clientMutationId
