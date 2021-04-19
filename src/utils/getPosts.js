@@ -16,9 +16,9 @@ export default {
     UserLogin() {
         fetch("https://wpintegrate.net/graphql", {
         method: "POST",
-headers: {
-"content-type": "application/json",
-},
+        headers: {
+        "content-type": "application/json",
+        },
 body: JSON.stringify({
 query: `mutation LoginUser {
 login(input: {
