@@ -34,7 +34,7 @@ nicename
 console.log(res);
 if (res.errors != undefined) {
 this.message = res.errors[0].message;
-} else {
+} else   {
 
 }
 }) 
