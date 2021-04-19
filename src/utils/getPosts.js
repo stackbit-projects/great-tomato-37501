@@ -56,20 +56,20 @@ export default {
             },
             body: JSON.stringify({
             query: `{
-            products(first:5, after:""){
-            pageInfo {
-            hasNextPage
-            endCursor
-            }
-            nodes{
-            name
-            id
-            ... on SimpleProduct{
-            uri
-            price
-            }
-            }
-            }
+                products(first:5, after:""){
+                pageInfo {
+                hasNextPage
+                endCursor
+                }
+                nodes{
+                name
+                id
+                ... on SimpleProduct{
+                uri
+                price
+                }
+                }
+                }
             }`,
 }),
 })
