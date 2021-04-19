@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 
-export default {
+export default getPosts{
     name: "UserLogin",
     data() {
         return {
