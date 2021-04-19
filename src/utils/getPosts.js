@@ -39,13 +39,13 @@ export default {
     })
     .then((res) => res.json())
     .then((res) => {
-        console.log(res);
-        if (res.errors != undefined) {
-        this.message = res.errors[0].message;
-        } else if (res.data.login.authToken) {
-        this.authToken = res.data.login.authToken;
-        this.nicename = res.data.login.user.nicename;
-        }
+            console.log(res);
+            if (res.errors != undefined) {
+            this.message = res.errors[0].message;
+            } else if (res.data.login.authToken) {
+            this.authToken = res.data.login.authToken;
+            this.nicename = res.data.login.user.nicename;
+            }
         });
     },
 GetData() {
