@@ -5,7 +5,7 @@ import _ from 'lodash';
 
 export default class Getposts extends React.Component {
     render() {
-        let post = _.get(this.props, 'page', null);
+       
         let date_type = _.get(this.props, 'date_type', null);
         return (
             <footer className="post-meta">
