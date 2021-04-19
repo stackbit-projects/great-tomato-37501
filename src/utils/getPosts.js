@@ -50,11 +50,11 @@ export default {
     },
     GetData() {
         fetch("https://wpintegrate.net/graphql", {
-method: "POST",
-headers: {
-"content-type": "application/json",
-},
-body: JSON.stringify({
+            method: "POST",
+            headers: {
+            "content-type": "application/json",
+            },
+            body: JSON.stringify({
 query: `{
 products(first:5, after:""){
 pageInfo {
