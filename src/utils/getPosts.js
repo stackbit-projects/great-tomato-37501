@@ -23,7 +23,7 @@ export default {
             query: `mutation LoginUser {
             login(input: {
             clientMutationId: "233",
-            username: "${uname}",
+            username: "chunt@dwsnow.com",
             password: "${password}"
             }) {
             authToken
