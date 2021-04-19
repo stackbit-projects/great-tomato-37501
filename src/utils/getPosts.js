@@ -19,22 +19,22 @@ export default {
             headers: {
             "content-type": "application/json",
             },
-body: JSON.stringify({
-query: `mutation LoginUser {
-login(input: {
-clientMutationId: "233",
-username: "${uname}",
-password: "${password}"
-}) {
-authToken
-clientMutationId
-user {
-name
-databaseId
-nicename
-}
-}
-}`,
+            body: JSON.stringify({
+            query: `mutation LoginUser {
+            login(input: {
+            clientMutationId: "233",
+            username: "${uname}",
+            password: "${password}"
+            }) {
+            authToken
+            clientMutationId
+            user {
+            name
+            databaseId
+            nicename
+            }
+            }
+            }`,
 }),
 })
 .then((res) => res.json())
