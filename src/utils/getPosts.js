@@ -10,7 +10,7 @@ export default {
         password: null,
         authToken: null,
         nicename: null,
-};
+        };
 },
 methods: {
 UserLogin() {
