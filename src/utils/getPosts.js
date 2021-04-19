@@ -38,7 +38,7 @@ this.message = res.errors[0].message;
 this.authToken = res.data.login.authToken;
 this.nicename = res.data.login.user.nicename;
 }
-}); 
+}) 
         )
     }
 }
