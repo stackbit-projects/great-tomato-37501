@@ -33,7 +33,7 @@ nicename
 .then((res) => {
 console.log(res);
 
-        );
+});
     }
 }
 
