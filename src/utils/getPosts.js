@@ -7,7 +7,7 @@ method: "POST",
 headers: {
 "content-type": "application/json",
 },
-body: JSON.stringify({
+    body: JSON.stringify({
     query: `{
     products(first:5, after:""){
     pageInfo {
