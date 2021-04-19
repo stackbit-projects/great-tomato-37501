@@ -14,4 +14,4 @@ export const query = graphql`
   }
 `
 
-export default ComponentName
+export default Getposts
