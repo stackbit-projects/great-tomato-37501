@@ -49,13 +49,7 @@ export default function getPosts(){
         });
     },
     GetData() {
-        fetch("https://wpintegrate.net/graphql", {
-            method: "POST",
-            headers: {
-            "content-type": "application/json",
-            },
-           
-        })
+      
         
     },
     },
