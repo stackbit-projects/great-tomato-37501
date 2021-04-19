@@ -15,7 +15,7 @@ body: JSON.stringify({
 query: `mutation LoginUser {
 login(input: {
 clientMutationId: "233",
-username: "",
+username: "chunt@dwsnow.com",
 password: "C8JUBYqXtT5oQQ(&!fYbx3"
 }) {
 authToken
