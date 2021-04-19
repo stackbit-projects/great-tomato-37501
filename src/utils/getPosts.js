@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 
-export default function GetPosts(){
+export default function Getposts(){
     fetch("https://wpintegrate.net/graphql", {
     method: "POST",
     headers: {
