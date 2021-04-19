@@ -73,11 +73,7 @@ export default function getPosts(){
             }`,
             }),
         })
-        .then((res) => res.json())
-        .then((res) => {
-            console.log(res);
-            return res;
-        });
+        
     },
     },
 };
