@@ -6,10 +6,10 @@ export default {
     data() {
     return {
         message: null,
-uname: null,
-password: null,
-authToken: null,
-nicename: null,
+        uname: null,
+        password: null,
+        authToken: null,
+        nicename: null,
 };
 },
 methods: {
