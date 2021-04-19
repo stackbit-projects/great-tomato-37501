@@ -33,7 +33,7 @@ nicename
 .then((res) => {
 console.log(res);
 if (res.errors != undefined) {
-this.message = res.errors[0].message;
+    this.message = res.errors[0].message;
 } 
 }) 
         )
