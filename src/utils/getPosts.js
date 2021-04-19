@@ -14,7 +14,7 @@ export default {
     },
     methods: {
     UserLogin() {
-fetch("https://wpintegrate.net/graphql", {
+        fetch("https://wpintegrate.net/graphql", {
 method: "POST",
 headers: {
 "content-type": "application/json",
