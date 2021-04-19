@@ -5,6 +5,7 @@ import {graphql} from 'gatsby';
 import {Layout} from '../components/index';
 import {getPages, Link, withPrefix} from '../utils';
 import BlogPostFooter from '../components/BlogPostFooter';
+import getPosts from '..'
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
