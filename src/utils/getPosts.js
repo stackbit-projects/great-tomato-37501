@@ -4,7 +4,7 @@ import _ from 'lodash';
 export default {
     name: "UserLogin",
     data() {
-    return {
+        return {
         message: null,
         uname: null,
         password: null,
