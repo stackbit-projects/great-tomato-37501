@@ -37,8 +37,8 @@ export default {
             }`,
         }),
     })
-.then((res) => res.json())
-.then((res) => {
+    .then((res) => res.json())
+    .then((res) => {
 console.log(res);
 if (res.errors != undefined) {
 this.message = res.errors[0].message;
