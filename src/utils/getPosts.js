@@ -13,7 +13,7 @@ export default {
         };
     },
     methods: {
-UserLogin() {
+    UserLogin() {
 fetch("https://wpintegrate.net/graphql", {
 method: "POST",
 headers: {
