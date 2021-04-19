@@ -71,7 +71,7 @@ export default {
                 }
                 }
             }`,
-}),
+            }),
 })
 .then((res) => res.json())
 .then((res) => {
