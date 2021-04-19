@@ -55,22 +55,22 @@ export default {
             "content-type": "application/json",
             },
             body: JSON.stringify({
-query: `{
-products(first:5, after:""){
-pageInfo {
-hasNextPage
-endCursor
-}
-nodes{
-name
-id
-... on SimpleProduct{
-uri
-price
-}
-}
-}
-}`,
+            query: `{
+            products(first:5, after:""){
+            pageInfo {
+            hasNextPage
+            endCursor
+            }
+            nodes{
+            name
+            id
+            ... on SimpleProduct{
+            uri
+            price
+            }
+            }
+            }
+            }`,
 }),
 })
 .then((res) => res.json())
