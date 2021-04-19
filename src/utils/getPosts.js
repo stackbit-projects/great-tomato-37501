@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 
 export default {
-name: "UserLogin",
+    name: "UserLogin",
 data() {
 return {
 message: null,
