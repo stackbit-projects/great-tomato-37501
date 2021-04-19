@@ -75,8 +75,8 @@ export default {
         })
         .then((res) => res.json())
         .then((res) => {
-console.log(res);
-return res;
+            console.log(res);
+            return res;
 });
 },
 },
