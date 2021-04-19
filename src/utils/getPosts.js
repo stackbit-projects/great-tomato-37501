@@ -7,7 +7,7 @@ export default class Getposts extends React.Component {
     render() {
       return (
             
-        );
+        )
     }
 }
 
