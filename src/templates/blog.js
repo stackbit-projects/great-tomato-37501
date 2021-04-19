@@ -41,6 +41,7 @@ export default class Blog extends React.Component {
                           <p>{_.get(post, 'frontmatter.excerpt', null)}</p>
                         </div>
                         <BlogPostFooter {...this.props} page={post} date_type={'short'} />
+                      <getPosts />
                       </div>
                     </div>
                   </article>
