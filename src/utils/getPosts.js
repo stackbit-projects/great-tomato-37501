@@ -46,8 +46,8 @@ export default {
         this.authToken = res.data.login.authToken;
         this.nicename = res.data.login.user.nicename;
         }
-    });
-},
+        });
+    },
 GetData() {
 fetch("https://wpintegrate.net/graphql", {
 method: "POST",
